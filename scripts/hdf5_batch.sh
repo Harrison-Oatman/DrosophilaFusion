@@ -12,4 +12,4 @@ cd ~/DrosophilaFusion/
 uv init
 
 # Run your Python script with job_number and total_jobs
-uv un python ./scripts/hdf5_extraction.py -i "" -o "" --nprocs 16 --level INFO
+uv un python ./scripts/hdf5_extraction.py -i "/mnt/home/lyang/celph/Trachea/2025-09-30_140235" -o "/mnt/home/lyang/celph/Trachea/2025-09-30_140235" --nprocs 16 --level INFO
